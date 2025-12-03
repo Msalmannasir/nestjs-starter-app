@@ -1,9 +1,9 @@
 {
-  "name": "new-fb",
+  "name": "nestjs-starter-app",
   "version": "0.0.1",
   "description": "",
-  "author": "",
-  "private": true,
+  "author": "Muhammad Salman Nasir",
+  "private": false,
   "license": "UNLICENSED",
   "scripts": {
     "build": "nest build",
