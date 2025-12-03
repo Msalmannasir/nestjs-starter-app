@@ -5,6 +5,7 @@ import { ConfigModule } from '@nestjs/config';
 import { envSchema } from '@common/constants/env-schema';
 import { HealthModule } from '@modules/health/health.module';
 import { DatabaseService } from '@modules/database/database.service';
+import { AuthModule } from '@modules/auth/auth.module';
 
 @Module({
   imports: [
@@ -20,6 +21,7 @@ import { DatabaseService } from '@modules/database/database.service';
     //   }),
     // }),
     HealthModule,
+    AuthModule,
   ],
   controllers: [AppController],
   providers: [AppService, DatabaseService],
